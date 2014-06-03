@@ -33,6 +33,7 @@ var req=http.request(options, function(res){
 	var headers = res.headers;
 	var cookies = headers["set-cookie"];
 	console.log(cookies);
+	console.log("http to bt statusCode:" + res.statusCode);
 //	cookies.forEach(function(cookie){
 //		console.log(cookie);
 //	})
